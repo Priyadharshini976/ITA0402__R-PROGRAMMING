@@ -1,0 +1,14 @@
+v <- 1:12
+
+arr <- array(v,
+             dim = c(2, 3, 2),
+             dimnames = list(
+               Row = c("R1", "R2"),
+               Column = c("C1", "C2", "C3"),
+               Table = c("T1", "T2")
+             ))
+
+print(arr)
+
+arr["R1", "C2", "T1"]
+arr["R2", "C3", "T2"]

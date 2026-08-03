@@ -1,0 +1,12 @@
+num_vector <- c(10, 20, 30, 40, 50)
+char_vector <- c("Apple", "Banana", "Cherry")
+logical_vector <- c(TRUE, FALSE, TRUE, FALSE)
+
+print(num_vector)
+typeof(num_vector)
+
+print(char_vector)
+typeof(char_vector)
+
+print(logical_vector)
+typeof(logical_vector)
